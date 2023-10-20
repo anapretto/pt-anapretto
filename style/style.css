@@ -8,3 +8,19 @@ body{
 #sobre{
     height: 85vh;
 }
+
+[data-bs-theme="dark"] {
+    color: #fff;
+    .btn-principal {
+        border-radius: 5px;
+        background: linear-gradient(270deg, #945DD6 0%, #7989E5 100%) !important;
+        box-shadow: 0px 10px 30px 0px rgba(179, 127, 241, 0.10) !important;
+    };
+}
+
+.degrade-texto{
+    background: linear-gradient(270deg, #945DD6 0%, #7E91FF 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
