@@ -24,3 +24,7 @@ body{
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+.btn-degrade {
+    background: linear-gradient(270deg, #945DD6 0%, #7E91FF 100%);
+}
