@@ -9,22 +9,22 @@ body{
     height: 85vh;
 }
 
-[data-bs-theme="dark"] {
-    color: #fff;
-    .btn-principal {
-        border-radius: 5px;
-        background: linear-gradient(270deg, #945DD6 0%, #7989E5 100%) !important;
-        box-shadow: 0px 10px 30px 0px rgba(179, 127, 241, 0.10) !important;
-    };
-}
-
 .degrade{
-    background: linear-gradient(270deg, #945DD6 0%, #7E91FF 100%);
+    background: linear-gradient(270deg, #9351e2 0%, #7588f5 100%);
     background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
 .btn-degrade {
-    background: linear-gradient(270deg, #945DD6 0%, #7E91FF 100%);
+    background: linear-gradient(270deg, #9351e2 0%, #7588f5 100%);
+    color: #fff !important;
+}
+
+.btn-degrade:hover {
+    background: linear-gradient(270deg, #a46ce9 0%, #91a2ff 100%);
+}
+
+a {
+    text-decoration: none !important;
 }
