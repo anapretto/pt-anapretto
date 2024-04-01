@@ -18,7 +18,7 @@ body{
     };
 }
 
-.degrade-texto{
+.degrade{
     background: linear-gradient(270deg, #945DD6 0%, #7E91FF 100%);
     background-clip: text;
 -webkit-background-clip: text;
