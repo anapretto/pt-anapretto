@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@200;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
 
 body{
     font-family: 'Sora', sans-serif !important;
-}
-
-#sobre{
-    height: 85vh;
 }
 
 .degrade{
@@ -27,4 +22,14 @@ body{
 
 a {
     text-decoration: none !important;
+}
+
+/* estilos para o modo noturno */
+body[data-bs-theme='dark'] .btn-outline-dark {
+    border-color: #fff; /* Define a cor da borda para branco */
+    color: #fff; /* Define a cor do texto para branco */
+}
+body[data-bs-theme='dark'] .btn-outline-dark:hover {
+    background-color: #fff; /* Cor de fundo ao passar o mouse no modo noturno */
+    color: #000; /* Cor de texto ao passar o mouse no modo noturno */
 }
